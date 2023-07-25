@@ -1,0 +1,98 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-image: url(background-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 10px;
+}
+.btn1{
+  margin-right: 150px;
+}
+.btn1 .btnb{
+  background: #fff;
+  color: black;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+}
+.btn1 .btnfirst{
+  margin:5px;
+  padding: 10px 15px;
+  font-size: 20px;
+  color:#fff;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.btn1 button:hover{
+  background: #fff;
+  border-radius: 5px;
+  color: black;
+}
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+li{
+  padding: 15px;
+}
+.container{
+ width: 100%;
+}
+a{
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+}
+ul a{
+  border-bottom: 2px solid  transparent;
+}
+ul a:hover{
+  border-bottom-color: #fff;
+}
+.logo{
+  margin-left: 220px;
+  font-size: 30px;
+}
+.content{
+  margin-top: 70px;
+  margin-left: 200px;
+  padding: 30px;
+  width:50%;
+  color: #fff;
+
+}
+.content h1{
+  font-size: 80px;
+}
+.content p{
+  width: 350px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 20px 0;
+}
+.content .btn3{
+  margin-top: 20px;
+  background: #f2784b;
+  color:#fff;
+  font-size: 15px;
+  padding: 15px 20px;
+  border-radius: 10px  5px;
+}
+
